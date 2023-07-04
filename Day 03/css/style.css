@@ -1,0 +1,37 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+
+body{
+    font-family: 'Roboto', sans-serif;
+}
+
+/* h1{
+    color: red;
+} */
+
+.description{
+    font-weight: bold;
+    /* font-size: 20px; */
+}
+
+.myheading{
+    color: rgb(126, 8, 8);
+    background-color: yellow;
+    padding: 20px;
+    border: 20px solid rgb(255, 0, 0);
+    margin: 30px;
+}
+
+.mydiv{
+    background-color: blue;
+    color: white;
+    width: 29%;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 10px;
+    display: inline-block;
+}
+
+
+
+
