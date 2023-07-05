@@ -1,0 +1,30 @@
+body{
+    font-family: sans-serif;
+}
+
+.service-section > h1{
+    text-align: center;
+}
+
+.service-section > p {
+    text-align: center;
+}
+
+.service-container{
+    padding: 50px;
+}
+
+.outer-div{
+    width: 25%;
+    float: left;
+}
+
+.inner-div{
+    background-color: rgb(255, 255, 255);
+    margin: 10px;
+    padding: 10px;
+    border-radius: 10px;
+    border-left: 8px solid red;
+    /* box-shadow: [h-offset] [v-offset] [blur-radius] [optional spread radius] [color]; */
+    box-shadow: 1px 2px 10px rgb(205, 201, 201);
+}
