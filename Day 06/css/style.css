@@ -1,0 +1,69 @@
+body{
+    margin: 0;
+    font-family: sans-serif;
+}
+.my-ul{
+    /* list-style-type: circle; */
+    list-style-type: numeric;
+}
+
+.my-ol{
+    list-style-type: disc;
+}
+
+.menu{
+    list-style-type: none;
+    /* overflow: hidden;  */
+    /* if li has float property, use overflow */
+    background-color: blue;
+    text-align: right;
+    padding: 10px;
+    margin: 0;
+}
+
+.menu li{
+    display: inline;
+    /* float: left; */
+    margin: 10px;
+}
+
+.menu a{
+    color: white;
+    text-decoration: none;
+}
+
+.about-content{
+    padding: 10px 100px;
+}
+
+.about-content img{
+    float: right;
+    width: 400px;
+    margin: 10px;
+}
+
+.about-content p{
+    text-align: justify;
+}
+
+.service-section > h1{
+    text-align: center;
+}
+
+.service-section > p{
+    text-align: center;
+}
+
+.service-container{
+    padding: 20px 100px;
+    display: flex;
+}
+
+.service{
+    background-color: rgb(237, 246, 246);
+    margin: 10px;
+    padding: 10px;
+    flex: 1;
+    border-radius: 10px;
+    box-shadow: 1px 2px 8px rgb(216, 211, 211);
+}
