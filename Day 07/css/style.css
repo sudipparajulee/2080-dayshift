@@ -1,0 +1,37 @@
+body{
+    font-family: sans-serif;
+}
+
+h1{
+    text-align: center;
+}
+
+.mytable{
+    border: 1px solid black;
+    border-collapse: collapse;
+    margin: auto;
+    width: 500px;
+    text-align: center;
+}
+
+.mytable th{
+    border: 1px solid black;
+    padding: 10px;
+    background-color: yellow;
+    color: black;
+}
+
+.mytable td{
+    border: 1px solid black;
+    padding: 10px;
+}
+
+.mytable tr:nth-child(odd)
+{
+    background-color: rgb(228, 220, 249);
+}
+
+.mytable tr:hover{
+    background-color: rgb(208, 218, 218);
+    cursor: pointer;
+}
