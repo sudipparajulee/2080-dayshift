@@ -1,0 +1,93 @@
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    margin: 0;
+    font-family: sans-serif ;
+}
+
+.top{
+    background-color: red;
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+    color: white;
+    padding: 10px;
+    text-decoration: none;
+    border-radius: 10px;
+}
+
+.product-container{
+    display: flex;
+    padding: 10px 150px;
+}
+
+.product img{
+    width: 100%;
+}
+
+.product{
+    margin: 10px;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: aqua;
+    position: relative;
+}
+
+.discount{
+    background-color: blue;
+    color: white;
+    padding: 5px 10px;
+    border-radius: 10px;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+}
+
+.upper-div{
+    background-color: blue;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 20px;
+}
+
+.upper-div p{
+    margin: 0;
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 20px;
+    background-color: rgb(240, 243, 243);
+    position: sticky;
+    top: 0;
+}
+
+.navbar img{
+    width: 80px;
+}
+
+.menu a{
+    text-decoration: none;
+    margin: 10px;
+    color: rgb(37, 37, 117);
+}
+
+.btn a{
+    text-decoration: none;
+    background-color: yellowgreen;
+    color: white;
+    padding: 5px 10px;
+    border-radius: 8px;
+}
+
+.banner img{
+    width: 100%;
+    height: 450px;
+    object-fit: cover;
+    object-position: center;
+}
