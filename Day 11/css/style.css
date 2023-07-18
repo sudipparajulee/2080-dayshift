@@ -1,0 +1,61 @@
+body{
+    font-family: sans-serif;
+    background-color: rgb(243, 244, 246);
+    
+height: 100vh;
+}
+
+.myform{
+    background-color: white;
+    width: 300px;
+    margin: 10% auto 10% auto;
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 1px 1px 8px rgb(208, 203, 203);
+}
+
+.myform h1{
+    text-align: center;
+}
+
+.loginimg{
+    text-align: center;
+}
+
+.loginimg img{
+    width: 50%;
+}
+
+.input-group{
+    margin: 10px 5px;
+}
+
+.input-group input{
+    display: block;
+    width: 90%;
+    padding: 10px;
+    border: 1px solid rgb(169, 169, 249);
+    border-radius: 10px;
+}
+
+.input-group input:focus{
+    outline: 2px solid rgb(180, 180, 243);
+}
+
+.input-group input[type=submit]
+{
+    /* background-color: blue; */
+    background: rgb(0,31,255);
+    background: linear-gradient(137deg, rgba(0,31,255,1) 0%, rgba(255,115,0,1) 100%);
+    width: 50%;
+    margin: auto;
+    border: none;
+    border-radius: 10px;
+    color: white;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.input-group input[type=submit]:hover{
+    background: linear-gradient(309deg, rgba(0,31,255,1) 0%, rgba(255,115,0,1) 100%);
+}
