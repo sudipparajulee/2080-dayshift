@@ -192,3 +192,41 @@ body{
     height: 5px;
     background-color: white;
 }
+
+.footer{
+    background-color: rgb(25, 25, 138);
+    color: white;
+    padding: 10px 50px;
+}
+
+.upper-footer{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+.footer-details img{
+    width: 100px;
+}
+
+.footer-links a{
+    color: white;
+    text-decoration: none;
+    display: block;
+    margin: 10px 0px;
+}
+
+.btnjointoday{
+    margin: 10px 0;
+}
+
+.btnjointoday a{
+    background-color: yellowgreen;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+}
+
+.lower-footer{
+    display: flex;
+    justify-content: space-between;
+}
