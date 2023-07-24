@@ -1,0 +1,131 @@
+body{
+    font-family: sans-serif;
+    margin: 0;
+}
+
+.logo{
+    text-align: center;
+}
+
+.logo img{
+    width: 300px;
+}
+
+.date-time{
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 100px;
+}
+
+.navbar{
+    background-color: rgb(13, 13, 146);
+    display: flex;
+    justify-content: space-between;
+}
+
+.menu li{
+    display: inline;
+}
+
+.menu a {
+    text-decoration: none;
+    color: white;
+    padding: 10px;
+}
+
+.menu a:hover{
+    background-color: red;
+}
+
+.active{
+    background-color: red;
+}
+
+.navbar img{
+    height: 50px;
+}
+
+.container{
+    padding: 50px 100px;
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+    gap: 15px;
+}
+
+.news-container img{
+    width: 100%;
+}
+
+.news-container{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr ;
+    gap: 30px;
+}
+
+.news-details{
+    display: flex;
+    justify-content: space-between;
+    color: red;
+}
+
+.news-card{
+    background-color: rgb(235, 230, 230);
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 1px 1px 8px rgb(225, 221, 221);
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.news-card h2{
+    color: rgb(62, 62, 189);
+}
+
+.news-card:hover{
+    box-shadow: 1px 1px 10px rgb(198, 190, 190);
+    transform: scale(1.01);
+}
+
+.popular-tag{
+    display: flex;
+    align-items: center;
+}
+
+.popular-tag p{
+    background-color: red;
+    color: white;
+    padding: 10px;
+    border-radius: 10px;
+    font-weight: bold;
+}
+
+.popular-tag hr{
+    flex: 1;
+    height: 3px;
+    background-color: red;
+}
+
+.popular-card{
+    display: flex;
+    background-color: rgb(218, 221, 223);
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 1px 1px 8px rgb(225, 221, 221);
+    cursor: pointer;
+    transition: 0.3s;
+    margin: 10px 0;
+}
+
+.popular-card:hover{
+    box-shadow: 1px 1px 10px rgb(198, 190, 190);
+    transform: scale(1.01);
+}
+
+.popular-card img{
+    height: 80px;
+}
+
+.popular-card h3{
+    padding: 0 10px;
+    color: rgb(62, 62, 189);
+}
