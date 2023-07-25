@@ -1,0 +1,60 @@
+body{
+    font-family: sans-serif;
+}
+
+.service-heading{
+    text-align: center;
+}
+
+.service-heading p{
+    color: rgb(70, 60, 60);
+}
+
+.service-container{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    padding: 20px 150px;
+    gap: 25px;
+}
+
+.service{
+    background-color: rgb(215, 220, 224);
+    padding: 10px;
+    text-align: center;
+    border-radius: 15px;
+    box-shadow: 1px 2px 5px rgb(209, 200, 200);
+    cursor: pointer;
+    transition: 0.4s;
+}
+
+.service:hover{
+    transform: scale(1.01);
+    box-shadow: 1px 2px 10px rgb(144, 135, 135);
+    
+}
+
+
+.service p{
+    text-align: justify;
+}
+
+@media (max-width:1024px){
+    .service-container{
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+@media (max-width:768px)
+{
+    .service-container{
+        padding: 20px 50px;
+    }
+}
+
+@media (max-width: 612px)
+{
+    .service-container{
+        grid-template-columns: 1fr;
+        padding: 20px;
+    }
+}
